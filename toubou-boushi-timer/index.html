@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>逃亡防止タイマー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>逃亡防止タイマー</h1>
+
+  <div id="time">00:00:00</div>
+
+  <!-- コイン表示 -->
+  <div id="coins">🪙 0</div>
+
+  <!-- ゲージ -->
+  <div id="gauge">
+    <div id="gauge-bar"></div>
+  </div>
+
+  <button id="start">開始</button>
+  <button id="stop">停止</button>
+
+  <!-- コード確認 -->
+  <div id="code-area" style="display:none;">
+    <p>コードを30秒以内に入力：</p>
+    <div id="code-display"></div>
+    <input id="code-input" type="text" maxlength="4">
+    <button id="code-submit">確認</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

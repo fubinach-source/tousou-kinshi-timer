@@ -1,0 +1,83 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  text-align: center;
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+/* タイマー */
+#time {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 25px 0;
+  color: #38bdf8;
+}
+
+/* コイン */
+#coins {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+/* ゲージ枠 */
+#gauge {
+  width: 420px;
+  height: 36px;
+  background: #020617;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 0 auto 30px;
+  box-shadow: inset 0 0 10px #000;
+}
+
+/* ゲージ本体 */
+#gauge-bar {
+  height: 100%;
+  width: 0%;
+  background: #22c55e;
+  transition: width 0.3s linear, background 0.3s;
+}
+
+/* ボタン */
+button {
+  background: #1e293b;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+  padding: 14px 26px;
+  margin: 8px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #334155;
+  transform: scale(1.05);
+}
+
+/* コード入力エリア */
+#code-area {
+  margin-top: 30px;
+}
+
+#code-display {
+  font-size: 36px;
+  letter-spacing: 10px;
+  margin: 15px 0;
+  color: #facc15;
+}
+
+#code-input {
+  font-size: 22px;
+  width: 120px;
+  text-align: center;
+  padding: 6px;
+}
